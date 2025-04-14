@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+/* Custom styles that extend Tailwind */
+#app {
+  @apply max-w-7xl mx-auto p-4 font-sans;
+}
+
+.green {
+  @apply text-emerald-500 font-medium;
+}
+
+a {
+  @apply text-emerald-600 no-underline transition-colors duration-300 px-1 py-0.5 rounded;
+}
+
+a:hover {
+  @apply bg-emerald-100;
+}
